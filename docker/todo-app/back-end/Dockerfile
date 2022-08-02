@@ -1,8 +1,8 @@
 FROM node:14
 
-WORKDIR /app
+WORKDIR /usr/app
 
-ADD node_modules.tar.gz .
+ADD ./node_modules.tar.gz ./node_modules
 
 COPY . .
 
