@@ -8,7 +8,7 @@ services:
       - todofront
       - todoback
   todofront:
-    build: ./todo-app/front-end
+    image: todofrontend
     ports:
       - 3000:3000
     depends_on:
